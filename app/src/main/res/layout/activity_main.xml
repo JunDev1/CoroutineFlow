@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:padding="16dp"
     tools:context=".MainActivity">
 
@@ -13,4 +14,9 @@
         android:layout_height="wrap_content"
         android:text="@string/users_activity" />
 
+    <Button
+        android:id="@+id/button_crypto_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/crypto_activity" />
 </LinearLayout>
